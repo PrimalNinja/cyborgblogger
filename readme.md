@@ -4,6 +4,7 @@ A lightweight, file-based PHP blogging system with wiki-style markup support and
 
 ## Features
 
+- **Small Footprint**: About 200kb if you use the minified JS files
 - **File-Based Storage**: No database required - posts stored as JSON files
 - **Wiki Markup**: Support for CyborgWiki syntax including bold text, links, images, lists, tables, and code blocks
 - **Topic Organization**: Categorize posts into custom topics
