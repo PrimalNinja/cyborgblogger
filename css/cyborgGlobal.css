@@ -1,0 +1,527 @@
+/* Global Styles CSS v2025925 */
+/* (c) 2025 Cyborg Unicorn Pty Ltd. */
+
+/* Card Styles */
+.gs-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 0.375rem;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+}
+
+.gs-card-body {
+    padding: 1.25rem;
+}
+
+.gs-card-title {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* Form Controls */
+.gs-form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.gs-form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Button Base */
+.gs-btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+                border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Button Variants */
+.gs-btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.gs-btn-primary:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.gs-btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.gs-btn-success:hover {
+    color: #fff;
+    background-color: #157347;
+    border-color: #146c43;
+}
+
+.gs-btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.gs-btn-secondary:hover {
+    color: #fff;
+    background-color: #5c636a;
+    border-color: #565e64;
+}
+
+.gs-btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.gs-btn-danger:hover {
+    color: #fff;
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+.gs-btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.gs-btn-outline-primary:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.gs-btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+}
+
+.gs-btn-outline-success:hover {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.gs-btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.gs-btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.gs-btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.gs-btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.gs-btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+}
+
+/* Close button for alerts */
+.gs-btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1.25rem 1rem;
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* Spacing Utilities */
+.gs-mb-0 { margin-bottom: 0 !important; }
+.gs-mb-2 { margin-bottom: 0.5rem !important; }
+.gs-mb-3 { margin-bottom: 1rem !important; }
+.gs-mb-4 { margin-bottom: 1.5rem !important; }
+.gs-mt-3 { margin-top: 1rem !important; }
+.gs-ms-3 { margin-left: 1rem !important; }
+.gs-me-2 { margin-right: 0.5rem !important; }
+.gs-me-3 { margin-right: 1rem !important; }
+.gs-pt-2 { padding-top: 0.5rem !important; }
+.gs-pt-3 { padding-top: 1rem !important; }
+
+/* Width Utilities */
+.gs-w-100 { width: 100% !important; }
+
+/* Display Utilities */
+.gs-d-flex { display: flex !important; }
+.gs-d-inline { display: inline !important; }
+.gs-d-inline-block { display: inline-block !important; }
+
+/* Flex Utilities */
+.gs-align-items-center { align-items: center !important; }
+.gs-justify-content-center { justify-content: center !important; }
+.gs-justify-content-between { justify-content: space-between !important; }
+
+/* Text Utilities */
+.gs-text-decoration-none { text-decoration: none !important; }
+.gs-text-white { color: #fff !important; }
+.gs-text-center { text-align: center !important; }
+.gs-text-primary { color: #0d6efd !important; }
+.gs-text-info { color: #0dcaf0 !important; }
+.gs-text-muted { color: #6c757d !important; }
+.gs-text-end { text-align: right !important; }
+
+/* Alert Styles */
+.gs-alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+}
+
+.gs-alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.gs-alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.gs-alert-warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+}
+
+.gs-alert-dismissible {
+    position: relative;
+    padding-right: 3rem;
+}
+
+/* Container */
+.gs-container-fluid {
+    width: 100%;
+    padding-right: var(--gs-gutter-x, 0.75rem);
+    padding-left: var(--gs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Grid System */
+.gs-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: calc(-.5 * var(--gs-gutter-x, 0.75rem));
+    margin-left: calc(-.5 * var(--gs-gutter-x, 0.75rem));
+}
+
+.gs-col-auto {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.gs-col {
+    flex: 1 0 0%;
+}
+
+.gs-col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+
+.gs-col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.gs-col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.gs-col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.gs-g-3 {
+    --gs-gutter-x: 1rem;
+    --gs-gutter-y: 1rem;
+}
+
+.gs-g-3 > * {
+    padding-right: calc(var(--gs-gutter-x) * .5);
+    padding-left: calc(var(--gs-gutter-x) * .5);
+    margin-top: var(--gs-gutter-y);
+}
+
+/* Typography */
+.gs-h5 { font-size: 1.25rem; }
+.gs-h6 { font-size: 1rem; }
+.gs-small { font-size: 0.875rem; }
+
+/* Borders */
+.gs-border { border: 1px solid #dee2e6 !important; }
+.gs-border-top { border-top: 1px solid #dee2e6 !important; }
+.gs-border-info { border-color: #0dcaf0 !important; }
+
+/* Backgrounds */
+.gs-bg-light { background-color: #f8f9fa !important; }
+
+/* ========== ELEMENT-SPECIFIC CLASSES (ge-) ========== */
+/* These are for JavaScript hooks and element identification */
+
+.ge-loginbox {}
+.ge-admincode-field {}
+.ge-bloggerlogin-link {}
+.ge-bloggerdelete-form {}
+.ge-gallery-container {}
+.ge-medialogin-link {}
+
+/* Custom element styles can go here */
+.ge-custom-element {
+    /* Element-specific overrides */
+}
+
+/* Fix for grid column classes */
+.gs-col-md-8, .gs-col-md-4 {
+    box-sizing: border-box;
+    padding: 0 0.5rem; /* Add padding for grid spacing */
+}
+
+/* Simple inline form layout */
+.gs-inline-form {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.gs-inline-form .gs-form-control {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Blogger-specific topic form styling */
+.gs-blogger-topic-form {
+    gap: 0; /* We'll use padding instead of gap */
+}
+
+.gs-blogger-topic-form > .gs-form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 0;
+    padding-right: 30px; /* 30px spacing between fields */
+    box-sizing: border-box;
+}
+
+/* Last form group (button) - no right padding */
+.gs-blogger-topic-form > .gs-form-group:last-child {
+    flex: 0 0 auto;
+    min-width: auto;
+    padding-right: 0;
+}
+
+/* Add to cyborgGlobal.css - Form select/dropdown styles */
+.gs-form-select {
+    display: block;
+    width: auto;
+    min-width: 200px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+.gs-form-select:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.gs-form-select:disabled {
+    background-color: #e9ecef;
+    opacity: 0.6;
+}
+
+/* Form label styling */
+.gs-form-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #212529;
+}
+
+/* Form group for better spacing */
+.gs-form-group {
+    margin-bottom: 1rem;
+}
+
+/* For inline forms, adjust label margin */
+.gs-inline-form .gs-form-label {
+    margin-bottom: 0.25rem;
+}
+
+/* For horizontal layouts with inline elements */
+.gs-inline-form .gs-form-label {
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+/* Login link specific styling */
+.ge-bloggerlogin-link {
+    color: #0d6efd;
+    font-weight: 500;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
+    transition: all 0.2s;
+    border: 1px solid #0d6efd;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ge-bloggerlogin-link:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    text-decoration: none;
+}
+
+/* Additional flex utilities */
+.gs-flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.gs-gap-2 {
+    gap: 0.5rem !important;
+}
+
+.gs-gap-3 {
+    gap: 1rem !important;
+}
+
+/* Clean Font System - Match CyborgUnicorn.com.au */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headers - Clean and modern */
+h1, h2, h3, h4, h5, h6,
+.gs-h1, .gs-h2, .gs-h3, .gs-h4, .gs-h5, .gs-h6,
+.gscb-title,
+.gs-card-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1e3a8a; /* Your dark blue theme */
+    margin-top: 0;
+}
+
+/* Form elements - also need clean font */
+.gs-form-control,
+.gs-form-select,
+.gs-btn,
+.gs-form-label,
+input, textarea, select, button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+/* Specific font improvements */
+.gs-form-label {
+    font-weight: 500;
+    color: #4b5563;
+}
+
+.gs-btn {
+    font-weight: 500;
+    letter-spacing: 0.025em;
+}
+
+.gs-alert {
+    font-weight: 400;
+}
+
+/* Blog content text */
+.wiki-content {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: #374151;
+}
+
+/* Smaller text */
+.gs-small,
+.gs-text-muted {
+    font-size: 0.875rem;
+    color: #6b7280;
+}

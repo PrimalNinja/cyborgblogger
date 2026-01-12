@@ -1,0 +1,10 @@
+{
+    "general": {
+        "name": "General Discussion",
+        "description": ""
+    },
+    "tech": {
+        "name": "Technology",
+        "description": "Tech discussions"
+    }
+}
