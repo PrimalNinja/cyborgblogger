@@ -121,7 +121,5 @@ Click "Generate Sitemap" in admin controls to create:
 
 - It's designed for you to use as you like, if someone can read your password they means they can change your password, they have access to the server anyway.
 - We don't recommmend encryption anyway, hashing isn't going to make much difference unless you are using your bank password for your blog which is not good practice.
-- If you want real security, consider making a ZOSCII security layer.
+- If you want real security, consider making a ZOSCII security layer: https://github.com/PrimalNinja/cyborgzoscii
 
-
-- Julian
